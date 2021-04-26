@@ -15,6 +15,8 @@
 		871B79B5263745A300E6015C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871B79B3263745A300E6015C /* LaunchScreen.storyboard */; };
 		871B79C0263745A400E6015C /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871B79BF263745A400E6015C /* NavigationTests.swift */; };
 		871B79CB263745A400E6015C /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871B79CA263745A400E6015C /* NavigationUITests.swift */; };
+		871B79E5263748AF00E6015C /* CodeNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871B79E3263748AF00E6015C /* CodeNextViewController.swift */; };
+		871B79EE26374A7800E6015C /* SegueNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871B79ED26374A7800E6015C /* SegueNextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		871B79C6263745A400E6015C /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		871B79CA263745A400E6015C /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		871B79CC263745A400E6015C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		871B79E3263748AF00E6015C /* CodeNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNextViewController.swift; sourceTree = "<group>"; };
+		871B79ED26374A7800E6015C /* SegueNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueNextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				871B79B1263745A300E6015C /* Assets.xcassets */,
 				871B79B3263745A300E6015C /* LaunchScreen.storyboard */,
 				871B79B6263745A300E6015C /* Info.plist */,
+				871B79E3263748AF00E6015C /* CodeNextViewController.swift */,
+				871B79ED26374A7800E6015C /* SegueNextViewController.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871B79E5263748AF00E6015C /* CodeNextViewController.swift in Sources */,
+				871B79EE26374A7800E6015C /* SegueNextViewController.swift in Sources */,
 				871B79AD263745A200E6015C /* ViewController.swift in Sources */,
 				871B79A9263745A200E6015C /* AppDelegate.swift in Sources */,
 				871B79AB263745A200E6015C /* SceneDelegate.swift in Sources */,
